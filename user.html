@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User CRUD</title>
+    <link type="text/css" rel="stylesheet" href="css/user.css">
+</head>
+<body>
+<h2>User Registration</h2>
+<form action="javascript:void(0);" onsubmit="app.Add()">
+    <div>
+        <lable>Enter username</lable>
+        <input type="text" id="add-name" placeholder="Name">
+    </div>
+    <div>
+        <lable class="email">Enter e-mail</lable>
+        <input type="text" id="email" placeholder="Email">
+    </div>
+    <input type="submit" value="Add" id="sub" >
+</form>
+<br>
+<div id="spoiler">
+    <form action="javascript:void(0);" id="saveEdit">
+        <input type="text" id="edit-name">
+        <input type="text" id="edit-email">
+        <input type="submit" value="SaveEdit" /> <a onclick="CloseInput()" label="Close">&#10006;</a>
+    </form>
+</div>
+    
+<div id="validationText">
+</div>
+
+<p id="counter"></p>
+
+<table border="1">
+    <tbody id="users">
+    </tbody>
+</table>
+<script type="text/javascript" src="js/user.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+}
+#spoiler{
+    display: none;
+}
+html
+{background-color : lightgrey;}
+#add-name
+{
+    width: 19% ;
+    margin : 8px 0;
+    padding: 8px 15px;
+    border: 2px solid grey;
+    font-size: 12px;
+}
+#email
+{
+    width :25% ;
+    margin : 8px 0;
+    padding: 8px 15px;
+    border: 2px solid grey;
+     font-size: 12px;
+}
+#sub
+{
+    font-size:  14px;
+    padding: 10px 24px;
+    border-radius: 4px; 
+    border: 2px solid black;
+    
+}
+#validationText {
+    color: red;
+}
+
+.email {
+    margin-right: 20px;
+}
+
+.data {
+    padding: 5px;
+}
